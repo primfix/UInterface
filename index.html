@@ -5,15 +5,57 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="./javascript/css/bootstrap.min.css" >
+    <title>Home</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    
+    <div class="container">
+      <header class="jumbotron">
+        <h1>Hi There,</h1>
+         <h2>Welcome to Curex</h2>
+      </header>
 
+      <div class="container">
+          <div class="row">
+              <a class="svgbutton1 border col-6 col-md-6" href="./pages/doctor.html">
+              
+             <img src="./assets/img/undraw_medical_research_qg4d.svg" alt="staff" width="100px" height="120px">
+                <p>Doctor</p>
+              </a>
+          
+           
+              <a class="svgbutton2 border col-6 col-md-6" href="./pages/nurse.html">
+                
+             <img src="./assets/img/undraw_medical_care_movn.svg" alt="staff" width="100px" height="120px">
+                <p>Nurse</p>
+              </a>
+          </div>
+
+         <div class="row">
+           <div class="col-12 col-md-12"></div>
+           <div class="col-12 col-md-12"><p class="text-center">@copyright Curex 2020</p></div>
+           <div class="col-12 col-md-12"></div>
+         </div>
+            
+         
+      </div >
+
+    </div>
+    
+   
+    
+    
+
+
+    
+
+
+    <script src="./javascript/js/jquery-3.5.1.slim.min.js"></script>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
+
+<script src="./javascript/js/popper.min.js" ></script>
+<script src="./javascript/js/bootstrap.min.js"></script>
   </body>
 </html>

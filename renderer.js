@@ -1,6 +1,14 @@
-// This file is required by the index.html file and will
-// be executed in the renderer process for that window.
-// No Node.js APIs are available in this process because
-// `nodeIntegration` is turned off. Use `preload.js` to
-// selectively enable features needed in the rendering
-// process.
+var svgbtn = document.querySelector('.svgbutton1');
+var svgbtn2 = document.querySelector('.svgbutton2');
+
+svgbtn.addEventListener('mouseover', ()=>{
+   $('.svgbutton1').toggleClass('border-primary');  
+})
+
+
+
+
+
+
+
+
